@@ -1,0 +1,465 @@
+body {
+	margin: 0px;
+}
+img {
+  max-width: 100%; 
+}
+h1 {
+	font-size: 60px;
+	text-transform: capitalize;
+	margin: 0px;
+	text-align: center;
+	color: #fff;
+	padding: 2%;
+}
+h2 {
+	color: #FFFF00;
+	background: rgba(0, 0, 0, 0.4);
+	padding: 4%;
+	margin: 0px;
+}
+
+p {
+	background: rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+    padding: 4% 3%;
+}
+a {
+	font-size: 20px;
+    padding: 2% 2%;
+	margin: 2% 0px;
+    text-decoration: none;
+    text-transform: capitalize;
+	display: inline-block;
+	color: #fff;
+}
+table {
+	width: 100%;
+	height: 100%;
+}
+
+/* main */
+.main-content {
+	background-image: url("../img/bg-1.jpg");
+	background-position: 50% 50%;
+	padding: 2% 10%;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+
+.main-content p{
+	font-size: 26px;
+	margin-top: 45%;
+}
+
+.main-menu {
+    background-color: #696969;
+	width: 100%;
+	height: 8%;
+}
+
+.menu-mbuttons {
+	width: 32.78%;
+	margin-left: 33.3%;
+}
+
+.menu-mbuttons a {
+    background: #BDB76B;
+    color: #fff;
+}
+
+.menu-mbuttons a:hover {
+    background: #D2B48C;
+}
+
+/* about */
+.about-content{
+	background-image: url("../img/bg-2.jpg");
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	padding: 5% 5%;
+}
+.about-menu {
+    background-color: #483D8B;
+	width: 100%;
+	height: 8%;
+}
+
+.menu-abuttons {
+	width: 32.78%;
+	margin-left: 33.3%;
+}
+
+.menu-abuttons a {
+    background: #9370DB;
+}
+
+.menu-abuttons a:hover {
+    background: #FF4500;
+}
+
+
+.about-content h1 {
+	background: rgba(0, 0, 0, 0.4);
+}
+
+.biography {
+	width: 31%;
+	height: 100%;
+	float: left;
+	text-align: center;
+	margin: 0px 1.1%;
+}
+
+.activities {
+	width: 31%;
+	height: 100%;
+	float: left;
+	text-align: center;
+	margin: 0px 1.1%;
+}
+
+.interests {
+	width: 31%;
+	height: 100%;
+	float: left;
+	text-align: center;
+	margin: 0px 1.1%;
+}
+
+/* media */
+.media-content {
+	background-image: url("../img/bg-3.jpg");
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	padding: 5% 7%;
+}
+
+
+.media-menu {
+    background-color: #2F4F4F;
+	width: 100%;
+	height: 8%;
+}
+
+.menu-ebuttons {
+	width: 32.78%;
+	margin-left: 33.3%;
+}
+
+.menu-ebuttons a {
+    background: #008080;
+}
+
+.menu-ebuttons a:hover {
+    background: #FA8072;
+}
+
+.media-content  h1 {
+	background: rgba(47, 79, 79, 0.8);
+}
+
+.media-content p{
+	font-size: 30px;
+	text-align: center;
+}
+
+.media-content  a {
+	background: rgba(47, 79, 79, 0.8);
+	font-size: 40px;
+	width: 100%;
+	padding: 1% 0%;
+	padding-bottom: 3%;
+}
+
+a.media:hover {
+    background: #FA8072;
+    color: #ffe; 
+}
+
+.gallery {
+	width: 33.333%;
+	float: left;
+	text-align: center;
+}
+
+.video {
+	width: 33.333%;
+	float: left;
+	text-align: center;
+}
+
+.audio {
+	width: 33.333%;
+	float: left;
+	text-align: center;
+}
+
+/* contact */
+.contact-content {
+	background-image: url("../img/bg-4.jpg");
+	background-position: center center;
+	background-size: 100% 100%;  
+	background-attachment: fixed;
+	padding: 5% 0;  
+}
+.contact-content h1 {
+    margin-bottom: 3%;
+}
+
+.form {
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 2% 1%;
+	color: #fff;
+}
+
+.form button {
+	background: #262628;
+	color: #fff;
+	margin-top: 2%;
+	padding: 1% 3%;
+	font-size: 18px;
+	border-radius:10px;
+}
+
+button.form:hover {
+	background: #C0C0C0;
+}
+
+/* gallery*/
+.gallery-content {
+	background-image: url("../img/bg-5.jpg");
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	padding: 5% 8%;
+}
+
+.gallery-menu {
+    background-color: #4682B4;
+	width: 100%;
+	height: 8%;
+}
+
+.menu-gbuttons {
+	width: 32.78%;
+	margin-left: 33.3%;
+}
+
+.menu-gbuttons a {
+    background: #20B2AA;
+}
+
+.menu-gbuttons a:hover {
+    background: #00FA9A;
+}
+.mini {
+	background: rgba(0, 0, 0, 0.5); 
+}
+.mini a {
+	width: 24.65%;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+ .mini img {
+	border: 3px solid #20B2AA;
+ }
+.gallery-content  h1 {
+	background: rgba(70, 130, 180, 0.8);
+}
+.gallery-content  h2 {
+	padding: 2%;
+	color: #fff;
+}
+
+.but a {
+	font-size: 25px;
+	background-color: #20B2AA;
+	padding: 1% 0;
+	margin: 3% 0;
+	width: 49.65%;
+	text-align: center;
+}
+
+.photo {
+	text-align: center;
+	background: rgba(0, 0, 0, 0.5);  
+}
+
+.text {
+	margin-left: 25%;
+    width:50%;
+}
+
+.photo img{
+	height: 60vh;
+	border: 3px solid #4682B4;
+}
+.description {
+	width:25%;
+}
+.but {
+	width: 50%;
+	margin-left: 25%;
+}
+
+.but a:hover {
+	background: #00FA9A;
+	cursor: pointer;
+}
+ 
+.mini img:hover {
+	border: 3px solid #F4A460;
+} 
+ 
+
+/* adopt */
+@media only screen and (min-width: 992px) and (max-width: 1391px) {
+	a {
+	font-size: 15px;
+    padding: 1% 1%;
+	margin: 1% 0px;
+    text-decoration: none;
+    text-transform: capitalize;
+	display: inline-block;
+	color: #fff;
+	}
+	.main-content p {
+		font-size: 25px;
+		margin-top: 50%;
+	}
+	.gallery-content a{
+		font-size: 18px;
+		width: 45.65%;
+	}
+	.photo img{
+		height: 60vh;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	a {
+		font-size: 17px;
+		padding: 1% 1%;
+		margin: 1% 0px;
+		width: 100%;
+		text-align: center;
+	}
+	.media-content a {
+		font-size: 30px;
+	}
+	.gallery-content a{
+		font-size: 18px;
+		width: 46.65%;
+	}
+	.photo img{
+		height: 60vh;
+	}
+}
+
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+	a {
+		font-size: 17px;
+		padding: 1% 1%;
+		margin: 1% 0px;
+		width: 100%;
+		text-align: center;
+	}
+	.gallery-content a{
+		font-size: 18px;
+		width: 47.65%;
+	}
+	.photo img{
+		height: 50vh;
+	}
+	.main-content p {
+		font-size: 20px;
+		margin-top: 50%;
+	}
+	.media-content a {
+		font-size: 25px;
+	}
+	.biography {
+		width: 100%;
+		float: none;
+	}
+
+	.activities {
+		width: 100%;
+		float: none;
+	}
+
+	.interests {
+		width: 100%;
+		float: none;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	h1 {
+		font-size: 30px;
+	}
+
+	h2 {
+		font-size: 20px;
+	}
+	
+	.main-content p {
+		font-size: 20px;
+		margin-top: 50%;
+	}
+	.photo img{
+		border: 1px;
+		height: 50vh;
+	}
+	.gallery-content a{
+		font-size: 18px;
+		width: 48.65%;
+	}
+	a {
+		font-size: 15px;
+		padding: 1% 1%;
+		margin: 1% 0px;
+		width: 100%;
+		text-align: center;
+	}
+	
+	.biography {
+		width: 100%;
+		float: none;
+	}
+
+	.activities {
+		width: 100%;
+		float: none;
+	}
+
+	.interests {
+		width: 100%;
+		float: none;
+	}
+	.gallery {
+		width: 100%;
+		float: none;
+		margin-bottom: 5%;
+	}
+	.video {
+		width: 100%;
+		float: none;
+		margin-bottom: 5%;
+	}
+	.audio {
+		width: 100%;
+		float: none;
+		margin-bottom: 5%;
+	}
+		
+}
